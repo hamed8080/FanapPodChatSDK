@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.dependency "FanapPodAsyncSDK" , '~> 0.9.5.1'
   s.dependency "Alamofire" , '~> 4.8.2'
   s.dependency "Sentry" , '~> 4.3.1'
-
+	s.dependency "GoogleWebRTC" , '~> 1.1.31999'
 end

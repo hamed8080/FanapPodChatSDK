@@ -175,9 +175,10 @@ extension Chat: AsyncDelegates {
         let asyncMessage = AsyncMessage(withContent: params)
         let chatMessage = ChatMessage(withContent: asyncMessage.content.convertToJSON())
         let uniqueIdInNewSDK = Chat.sharedInstance.callbacksManager.isUniqueIdExistInAllCllbacks(uniqueId:chatMessage.uniqueId)
+		let isCallType  = isCallType(type: chatMessage.type) //call type new implemented need to call ReceiveMessageFactory.invokeCallback methods
         let isSystemEvent  = chatMessage.type == NewChatMessageVOTypes.SYSTEM_MESSAGE.rawValue
         //Only code needed in new Version release
-        if !uniqueIdInNewSDK && !isSystemEvent{
+        if !uniqueIdInNewSDK && !isSystemEvent && !isCallType{
             handleReceiveMessageFromAsync(withContent: asyncMessage)
         }else if let data = try? params.rawData(){
             ReceiveMessageFactory.invokeCallback(data: data)
@@ -185,7 +186,32 @@ extension Chat: AsyncDelegates {
     }
     
     
-    
+	private func isCallType(type:Int)->Bool{
+		guard let typeVO = NewChatMessageVOTypes(rawValue: type) else {return false}
+		let callsVOTypes:[NewChatMessageVOTypes] = [.START_CALL_REQUEST,
+											 .ACCEPT_CALL,
+											 .REJECT_CALL,
+											 .DELIVERED_CALL_REQUEST,
+											 .CALL_STARTED,
+											 .END_CALL_REQUEST,
+											 .END_CALL,
+											 .GET_CALLS,
+											 .GROUP_CALL_REQUEST,
+											 .LEAVE_CALL,
+											 .ADD_CALL_PARTICIPANT,
+											 .CALL_PARTICIPANT_JOINED,
+											 .REMOVE_CALL_PARTICIPANT,
+											 .TERMINATE_CALL,
+											 .MUTE_CALL_PARTICIPANT,
+											 .UNMUTE_CALL_PARTICIPANT,
+											 .ACTIVE_CALL_PARTICIPANTS,
+											 .CALL_SESSION_CREATED,
+											 .TURN_ON_VIDEO_CALL,
+											 .TURN_OFF_VIDEO_CALL,
+											 .START_RECORDING,
+											 .STOP_RECORDING]
+		return  callsVOTypes.contains(typeVO)
+	}
     
     /*
      * Handle AsyncReady:
