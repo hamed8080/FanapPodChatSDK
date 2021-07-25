@@ -8,14 +8,14 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/FanapSoft/pod-chat-ios-sdk"
   s.license      = "MIT"
   s.author       = { "Hamed Hosseini" => "hamed8080@gmail.com" }
-  s.platform     = :ios, "10.0"
+  s.platform     = :ios, "12.0"
   s.swift_versions = "4.0"
   s.source       = { :git => "https://github.com/FanapSoft/pod-chat-ios-sdk.git", :tag => s.version }
   s.source_files = "Pod-Chat-iOS-SDK/Chat/**/*.{h,swift,xcdatamodeld,m,momd}"
   s.resources = "Pod-Chat-iOS-SDK/Chat/*.xcdatamodeld"
   s.frameworks  = "Foundation" , "CoreData" , "Contacts"
+  s.vendored_frameworks = "Pod-Chat-iOS-SDK/Frameworks/WebRTC.xcframework"#inside root folder of podhcat sdk
   s.dependency "FanapPodAsyncSDK" , '~> 0.9.5.1'
   s.dependency "Alamofire" , '~> 4.8.2'
   s.dependency "Sentry" , '~> 4.3.1'
-	s.dependency "GoogleWebRTC" , '~> 1.1.31999'
 end
