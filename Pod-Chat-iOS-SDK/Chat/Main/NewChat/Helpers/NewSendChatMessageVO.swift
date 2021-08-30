@@ -11,7 +11,7 @@ import SwiftyJSON
 
 public struct NewSendChatMessageVO : Encodable {
     
-	let type                         : Int
+	var type                         : Int?       = nil
 	let token                        : String
 	var content                      : String?    = nil
 	var messageType                  : Int?       = nil

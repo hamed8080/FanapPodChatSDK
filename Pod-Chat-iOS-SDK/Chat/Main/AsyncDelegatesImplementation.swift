@@ -178,6 +178,16 @@ extension Chat: AsyncDelegates {
 		let isCallType  = isCallType(type: chatMessage.type) //call type new implemented need to call ReceiveMessageFactory.invokeCallback methods
         let isSystemEvent  = chatMessage.type == NewChatMessageVOTypes.SYSTEM_MESSAGE.rawValue
         //Only code needed in new Version release
+        
+        // FIXME:  needs to Map webrtcPeerIds With ServerNames like["KuretoAdmin1":13631820 , "KuretoAdmin2":13631821 ,...]
+        let webrtcSenderPeerIds =  [13631820,13631821,101130994,101131106,101131185]
+        let webrtcPeerNames     =  ["KuretoAdmin1,KuretoAdmin2"]
+        
+        if webrtcSenderPeerIds.contains(asyncMessage.senderId) || webrtcPeerNames.contains(asyncMessage.peerName ?? ""){
+            //call webrtc
+            WebRTCClientNew.instance?.messageReceived(asyncMessage)
+            return
+        }
         if !uniqueIdInNewSDK && !isSystemEvent && !isCallType{
             handleReceiveMessageFromAsync(withContent: asyncMessage)
         }else if let data = try? params.rawData(){
