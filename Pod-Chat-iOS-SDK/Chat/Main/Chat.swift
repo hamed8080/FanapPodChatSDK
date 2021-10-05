@@ -498,6 +498,7 @@ public class Chat {
 	var isCreateObjectFuncCalled = false
 	var config:ChatConfig?
 	var callbacksManager = CallbacksManager()
+	var callState:CallState? = nil
     
 }
 

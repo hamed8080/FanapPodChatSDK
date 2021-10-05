@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.resources = "Pod-Chat-iOS-SDK/Chat/*.xcdatamodeld"
   s.frameworks  = "Foundation" , "CoreData" , "Contacts"
   s.vendored_frameworks = "Pod-Chat-iOS-SDK/Frameworks/WebRTC.xcframework"#inside root folder of podhcat sdk
+	
   s.dependency "FanapPodAsyncSDK" , '~> 0.9.5.1'
   s.dependency "Alamofire" , '~> 4.8.2'
   s.dependency "Sentry" , '~> 4.3.1'

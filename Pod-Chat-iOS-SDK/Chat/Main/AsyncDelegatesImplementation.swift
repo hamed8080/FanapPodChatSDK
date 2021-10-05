@@ -200,7 +200,7 @@ extension Chat: AsyncDelegates {
 		guard let typeVO = NewChatMessageVOTypes(rawValue: type) else {return false}
 		let callsVOTypes:[NewChatMessageVOTypes] = [.START_CALL_REQUEST,
 											 .ACCEPT_CALL,
-											 .REJECT_CALL,
+											 .CANCEL_CALL,
 											 .DELIVERED_CALL_REQUEST,
 											 .CALL_STARTED,
 											 .END_CALL_REQUEST,

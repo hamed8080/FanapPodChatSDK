@@ -12,6 +12,8 @@ public var RECEIVE_CALL_NAME_OBJECT = Notification.Name.init(RECEIVE_CALL_NAME)
 
 class StartCallRequestResponseHandler {
     
+	
+	///Only call on receivers side. The starter of call never get this event.
     static func handle(_ chatMessage: NewChatMessage, _ asyncMessage: AsyncMessage) {
         
         let chat = Chat.sharedInstance
