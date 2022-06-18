@@ -19,25 +19,26 @@ public struct ChatConfig {
 	var token                     	    : String
 	var mapApiKey                 	    : String?
 	var mapServer                 	    : String  =  "https://api.neshan.org/v1"
-	var typeCode                  	    : String = "default"
+	var typeCode                  	    : String  = "default"
+    var ownerId                         : String? = nil
 	var enableCache               	    : Bool    = false
 	var cacheTimeStampInSec      		: Int     = (2 * 24) * (60 * 60)
-	var msgPriority               	    : Int    = 1
-	var msgTTL                    	    : Int    = 10
-	var httpRequestTimeout        		: Int    = 20
-	var actualTimingLog          		: Bool   = false
-	var wsConnectionWaitTime      		: Double = 0.0
-    var reconnectCount                  : Int    = 5
-	var connectionRetryInterval   		: Int    = 5
-	var connectionCheckTimeout    		: Int    = 20
-	var messageTtl                	    : Int    = 10000
-	var captureLogsOnSentry       		: Bool   = false
-	var maxReconnectTimeInterval  		: Int    = 60
-	var reconnectOnClose          		: Bool   = false
+	var msgPriority               	    : Int     = 1
+	var msgTTL                    	    : Int     = 10
+	var httpRequestTimeout        		: Int     = 20
+	var actualTimingLog          		: Bool    = false
+	var wsConnectionWaitTime      		: Double  = 0.0
+    var reconnectCount                  : Int     = 5
+	var connectionRetryInterval   		: Int     = 5
+	var connectionCheckTimeout    		: Int     = 20
+	var messageTtl                	    : Int     = 10000
+	var captureLogsOnSentry       		: Bool    = false
+	var maxReconnectTimeInterval  		: Int     = 60
+	var reconnectOnClose          		: Bool    = false
 	var localImageCustomPath      		: URL?
 	var localFileCustomPath       		: URL?
-	var deviecLimitationSpaceMB   		: Int64  = 100
-	var getDeviceIdFromToken      		: Bool   = false
+	var deviecLimitationSpaceMB   		: Int64   = 100
+	var getDeviceIdFromToken      		: Bool    = false
     var deviceId                        : String? = nil
     var isDebuggingLogEnabled           : Bool    = false
     var isDebuggingAsyncEnable          : Bool    = false
@@ -54,6 +55,7 @@ public struct ChatConfig {
                 mapApiKey					: String? = nil,
                 mapServer					: String = "https://api.neshan.org/v1",
                 typeCode					: String = "default",
+                ownerId                     : String? = nil,
                 enableCache					: Bool = false,
                 cacheTimeStampInSec			: Int = (2 * 24) * (60 * 60),
                 msgPriority					: Int = 1,
@@ -87,6 +89,7 @@ public struct ChatConfig {
 		self.mapApiKey 				    = mapApiKey
 		self.mapServer 				    = mapServer
 		self.typeCode 				    = typeCode
+        self.ownerId                    = ownerId
 		self.enableCache 				= enableCache
 		self.cacheTimeStampInSec 		= cacheTimeStampInSec
 		self.msgPriority 				= msgPriority

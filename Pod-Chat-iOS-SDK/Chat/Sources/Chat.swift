@@ -753,6 +753,7 @@ public class Chat {
                                             systemMetadata                     : systemMetadata,
                                             subjectId                          : subjectId,
                                             typeCode                           : config.typeCode,
+                                            ownerId                            : config.ownerId,
                                             uniqueId                           : uniqueId)
 		
 		guard let chatMessageContent = chatMessage.convertCodableToString() else{return}

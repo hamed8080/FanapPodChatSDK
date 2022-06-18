@@ -19,6 +19,7 @@ public struct SendChatMessageVO : Encodable {
                 subjectId:          Int?        = nil,
                 tokenIssuer:        Int         = 1,
                 typeCode:           String?     = nil,
+                ownerId:            String?     = nil,
                 uniqueId:           String?     = nil
     ) {
         self.type               = type
@@ -31,6 +32,7 @@ public struct SendChatMessageVO : Encodable {
         self.subjectId          = subjectId
         self.tokenIssuer        = tokenIssuer
         self.typeCode           = typeCode
+        self.ownerId            = ownerId
         self.uniqueId           = uniqueId
     }
     
@@ -45,5 +47,6 @@ public struct SendChatMessageVO : Encodable {
 	var subjectId                    : Int?       = nil
 	var tokenIssuer                  : Int        = 1
 	var typeCode                     : String?    = nil
+    var ownerId                      : String?    = nil
 	var uniqueId                     : String?    = nil
 }
