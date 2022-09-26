@@ -1,0 +1,869 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@FanapPodChatSDK@objc(cs)QueueOfUploadFiles",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "QueueOfUploadFiles"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FanapPodChatSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "QueueOfUploadFiles"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "QueueOfUploadFiles"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "QueueOfUploadFiles"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/objc(cs)NSManagedObject"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/7Combine16ObservableObjectP",
+        "doc:\/\/FanapPodChatSDK\/objc(pl)NSFetchRequestResult",
+        "doc:\/\/FanapPodChatSDK\/objc(pl)NSObject",
+        "doc:\/\/FanapPodChatSDK\/s7CVarArgP",
+        "doc:\/\/FanapPodChatSDK\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/FanapPodChatSDK\/s23CustomStringConvertibleP",
+        "doc:\/\/FanapPodChatSDK\/SQ",
+        "doc:\/\/FanapPodChatSDK\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/dataToSend",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/fileExtension",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/fileName",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/fileSize",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/isPublic",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/mimeType",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/originalName",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/typeCode",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/uniqueId",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/userGroupHash"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/getCodable()"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/crud"
+      ],
+      "title" : "Type Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/convertFileToCM(request:entity:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/insert(request:resultEntity:)"
+      ],
+      "title" : "Type Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fanappodchatsdk\/queueofuploadfiles"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://FanapPodChatSDK/7Combine16ObservableObjectP": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/7Combine16ObservableObjectP",
+  "title" : "Combine.ObservableObject",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/SH": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/SQ": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK": {
+  "abstract" : [
+    {
+      "text" : "With Fanap Chat SDK you could connect to the chat server without managing the socket state and send or receive messages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FanapPodChatSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/QueueOfUploadFiles": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "QueueOfUploadFiles"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "QueueOfUploadFiles"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "QueueOfUploadFiles",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/queueofuploadfiles"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/QueueOfUploadFiles/convertFileToCM(request:entity:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "convertFileToCM"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "request"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK17UploadFileRequestC",
+      "text" : "UploadFileRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "entity"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)QueueOfUploadFiles",
+      "text" : "QueueOfUploadFiles"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)QueueOfUploadFiles",
+      "text" : "QueueOfUploadFiles"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/convertFileToCM(request:entity:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "convertFileToCM(request:entity:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/queueofuploadfiles\/convertfiletocm(request:entity:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/QueueOfUploadFiles/crud": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "crud"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12CoreDataCrudC",
+      "text" : "CoreDataCrud"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)QueueOfUploadFiles",
+      "text" : "QueueOfUploadFiles"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/crud",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "crud",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/queueofuploadfiles\/crud"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/QueueOfUploadFiles/dataToSend": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dataToSend"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSData",
+      "text" : "NSData"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/dataToSend",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dataToSend",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/queueofuploadfiles\/datatosend"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/QueueOfUploadFiles/fileExtension": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fileExtension"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/fileExtension",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fileExtension",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/queueofuploadfiles\/fileextension"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/QueueOfUploadFiles/fileName": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fileName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/fileName",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fileName",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/queueofuploadfiles\/filename"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/QueueOfUploadFiles/fileSize": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fileSize"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSNumber",
+      "text" : "NSNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/fileSize",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fileSize",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/queueofuploadfiles\/filesize"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/QueueOfUploadFiles/getCodable()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getCodable"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK17UploadFileRequestC",
+      "text" : "UploadFileRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/getCodable()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getCodable()",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/queueofuploadfiles\/getcodable()"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/QueueOfUploadFiles/insert(request:resultEntity:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "insert"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "request"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK17UploadFileRequestC",
+      "text" : "UploadFileRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "resultEntity"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)QueueOfUploadFiles",
+      "text" : "QueueOfUploadFiles"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ())?)"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/insert(request:resultEntity:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "insert(request:resultEntity:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/queueofuploadfiles\/insert(request:resultentity:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/QueueOfUploadFiles/isPublic": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isPublic"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSNumber",
+      "text" : "NSNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/isPublic",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isPublic",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/queueofuploadfiles\/ispublic"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/QueueOfUploadFiles/mimeType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mimeType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/mimeType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mimeType",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/queueofuploadfiles\/mimetype"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/QueueOfUploadFiles/originalName": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "originalName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/originalName",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "originalName",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/queueofuploadfiles\/originalname"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/QueueOfUploadFiles/typeCode": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "typeCode"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/typeCode",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "typeCode",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/queueofuploadfiles\/typecode"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/QueueOfUploadFiles/uniqueId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/uniqueId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "uniqueId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/queueofuploadfiles\/uniqueid"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/QueueOfUploadFiles/userGroupHash": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "userGroupHash"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/QueueOfUploadFiles\/userGroupHash",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "userGroupHash",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/queueofuploadfiles\/usergrouphash"
+},
+"doc://FanapPodChatSDK/objc(cs)NSManagedObject": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/objc(cs)NSManagedObject",
+  "title" : "CoreData.NSManagedObject",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/objc(pl)NSFetchRequestResult": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/objc(pl)NSFetchRequestResult",
+  "title" : "CoreData.NSFetchRequestResult",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/objc(pl)NSObject": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/objc(pl)NSObject",
+  "title" : "ObjectiveC.NSObjectProtocol",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/s7CVarArgP": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/s7CVarArgP",
+  "title" : "Swift.CVarArg",
+  "type" : "unresolvable"
+}
+}
+}

@@ -1,0 +1,952 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15FanapPodChatSDK12CoreDataCrudC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "CoreDataCrud"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FanapPodChatSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "CoreDataCrud"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "CoreDataCrud"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "CoreDataCrud"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : "> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:objc(pl)NSFetchRequestResult",
+              "text" : "NSFetchRequestResult"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/init(entityName:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/delete(entity:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/deleteAll()",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/deleteWith(predicate:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/fetchRequest()",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/fetchWith(_:)-4ap1g",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/fetchWith(_:)-5tu28",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/fetchWithOffset(count:offset:predicate:sortDescriptor:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/find(keyWithFromat:value:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/getAll()",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/getFetchRequest()",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/getInsertEntity()",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/getTotalCount(predicate:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/insert(setEntityVariables:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/insertAll(setEntityVariables:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fanappodchatsdk\/coredatacrud"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK": {
+  "abstract" : [
+    {
+      "text" : "With Fanap Chat SDK you could connect to the chat server without managing the socket state and send or receive messages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FanapPodChatSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoreDataCrud"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoreDataCrud"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoreDataCrud",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud/delete(entity:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "delete"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "entity"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSManagedObject",
+      "text" : "NSManagedObject"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/delete(entity:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "delete(entity:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud\/delete(entity:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud/deleteAll()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "deleteAll"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/deleteAll()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "deleteAll()",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud\/deleteall()"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud/deleteWith(predicate:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "deleteWith"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "predicate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSPredicate",
+      "text" : "NSPredicate"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/deleteWith(predicate:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "deleteWith(predicate:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud\/deletewith(predicate:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud/fetchRequest()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSFetchRequest",
+      "text" : "NSFetchRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(pl)NSFetchRequestResult",
+      "text" : "NSFetchRequestResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/fetchRequest()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchRequest()",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud\/fetchrequest()"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud/fetchWith(_:)-4ap1g": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchWith"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSPredicate",
+      "text" : "NSPredicate"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12CoreDataCrudC1Txmfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "]?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/fetchWith(_:)-4ap1g",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchWith(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud\/fetchwith(_:)-4ap1g"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud/fetchWith(_:)-5tu28": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchWith"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSFetchRequest",
+      "text" : "NSFetchRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(pl)NSFetchRequestResult",
+      "text" : "NSFetchRequestResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ">) -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12CoreDataCrudC1Txmfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "]?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/fetchWith(_:)-5tu28",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchWith(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud\/fetchwith(_:)-5tu28"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud/fetchWithOffset(count:offset:predicate:sortDescriptor:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchWithOffset"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "count"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "offset"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "predicate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSPredicate",
+      "text" : "NSPredicate"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "sortDescriptor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSSortDescriptor",
+      "text" : "NSSortDescriptor"
+    },
+    {
+      "kind" : "text",
+      "text" : "]?) -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12CoreDataCrudC1Txmfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/fetchWithOffset(count:offset:predicate:sortDescriptor:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchWithOffset(count:offset:predicate:sortDescriptor:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud\/fetchwithoffset(count:offset:predicate:sortdescriptor:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud/find(keyWithFromat:value:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "find"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "keyWithFromat"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7CVarArgP",
+      "text" : "CVarArg"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12CoreDataCrudC1Txmfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/find(keyWithFromat:value:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "find(keyWithFromat:value:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud\/find(keywithfromat:value:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud/getAll()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getAll"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12CoreDataCrudC1Txmfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/getAll()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getAll()",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud\/getall()"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud/getFetchRequest()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getFetchRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSFetchRequest",
+      "text" : "NSFetchRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12CoreDataCrudC1Txmfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/getFetchRequest()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getFetchRequest()",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud\/getfetchrequest()"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud/getInsertEntity()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getInsertEntity"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12CoreDataCrudC1Txmfp",
+      "text" : "T"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/getInsertEntity()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getInsertEntity()",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud\/getinsertentity()"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud/getTotalCount(predicate:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getTotalCount"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "predicate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSPredicate",
+      "text" : "NSPredicate"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/getTotalCount(predicate:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getTotalCount(predicate:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud\/gettotalcount(predicate:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud/init(entityName:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "entityName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/init(entityName:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(entityName:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud\/init(entityname:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud/insert(setEntityVariables:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "insert"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "setEntityVariables"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12CoreDataCrudC1Txmfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ())"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/insert(setEntityVariables:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "insert(setEntityVariables:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud\/insert(setentityvariables:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CoreDataCrud/insertAll(setEntityVariables:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "insertAll"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "setEntityVariables"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12CoreDataCrudC1Txmfp",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ())"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CoreDataCrud\/insertAll(setEntityVariables:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "insertAll(setEntityVariables:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/coredatacrud\/insertall(setentityvariables:)"
+}
+}
+}

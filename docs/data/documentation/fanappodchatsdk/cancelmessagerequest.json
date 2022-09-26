@@ -1,0 +1,513 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15FanapPodChatSDK20CancelMessageRequestC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "CancelMessageRequest"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FanapPodChatSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "CancelMessageRequest"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "CancelMessageRequest"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "CancelMessageRequest"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest\/init(textMessageUniqueId:editMessageUniqueId:forwardMessageUniqueId:fileMessageUniqueId:uploadImageUniqueId:uploadFileUniqueId:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest\/editMessageUniqueId",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest\/fileMessageUniqueId",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest\/forwardMessageUniqueId",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest\/textMessageUniqueId",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest\/uploadFileUniqueId",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest\/uploadImageUniqueId"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fanappodchatsdk\/cancelmessagerequest"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK": {
+  "abstract" : [
+    {
+      "text" : "With Fanap Chat SDK you could connect to the chat server without managing the socket state and send or receive messages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FanapPodChatSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CancelMessageRequest": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CancelMessageRequest"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CancelMessageRequest"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CancelMessageRequest",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cancelmessagerequest"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CancelMessageRequest/editMessageUniqueId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "editMessageUniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest\/editMessageUniqueId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "editMessageUniqueId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cancelmessagerequest\/editmessageuniqueid"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CancelMessageRequest/fileMessageUniqueId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fileMessageUniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest\/fileMessageUniqueId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fileMessageUniqueId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cancelmessagerequest\/filemessageuniqueid"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CancelMessageRequest/forwardMessageUniqueId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "forwardMessageUniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest\/forwardMessageUniqueId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "forwardMessageUniqueId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cancelmessagerequest\/forwardmessageuniqueid"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CancelMessageRequest/init(textMessageUniqueId:editMessageUniqueId:forwardMessageUniqueId:fileMessageUniqueId:uploadImageUniqueId:uploadFileUniqueId:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "textMessageUniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "editMessageUniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "forwardMessageUniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "fileMessageUniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "uploadImageUniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "uploadFileUniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest\/init(textMessageUniqueId:editMessageUniqueId:forwardMessageUniqueId:fileMessageUniqueId:uploadImageUniqueId:uploadFileUniqueId:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(textMessageUniqueId:editMessageUniqueId:forwardMessageUniqueId:fileMessageUniqueId:uploadImageUniqueId:uploadFileUniqueId:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cancelmessagerequest\/init(textmessageuniqueid:editmessageuniqueid:forwardmessageuniqueid:filemessageuniqueid:uploadimageuniqueid:uploadfileuniqueid:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CancelMessageRequest/textMessageUniqueId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "textMessageUniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest\/textMessageUniqueId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "textMessageUniqueId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cancelmessagerequest\/textmessageuniqueid"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CancelMessageRequest/uploadFileUniqueId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uploadFileUniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest\/uploadFileUniqueId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "uploadFileUniqueId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cancelmessagerequest\/uploadfileuniqueid"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CancelMessageRequest/uploadImageUniqueId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uploadImageUniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CancelMessageRequest\/uploadImageUniqueId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "uploadImageUniqueId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cancelmessagerequest\/uploadimageuniqueid"
+}
+}
+}
