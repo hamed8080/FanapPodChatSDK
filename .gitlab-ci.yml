@@ -17,7 +17,7 @@ pages:
     - cp -r ./* .public
     - rm -rf public
     - mv .public public
-    - mv docs/* public
+    - mv .docs/* public
   artifacts:
     paths:
       - public
