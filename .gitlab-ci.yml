@@ -8,11 +8,16 @@
 image: busybox
 
 pages:
+  only:
+  - gl-pages
   stage: deploy
   script:
-    - echo "The site will be deployed to $CI_PAGES_URL"
+    - echo "The site will be deployed to $CI_PAGES_URL/documentation/fanappodchatsdk"
+    - mkdir .public
+    - cp -r ./* .public
+    - rm -rf public
+    - mv .public public
+    - mv docs/* public
   artifacts:
     paths:
-      - docs
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+      - public
