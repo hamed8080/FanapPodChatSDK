@@ -1,0 +1,465 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15FanapPodChatSDK13FileEventTypeO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "FileEventType"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FanapPodChatSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "FileEventType"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "FileEventType"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "FileEventType"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/DOWNLOADED(_:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/DOWNLOADING(uniqueId:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/DOWNLOAD_ERROR(_:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/IMAGE_DOWNLOADED(_:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/NOT_STARTED",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/UPLOADED(_:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/UPLOADING(uniqueId:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/UPLOAD_ERROR(_:)"
+      ],
+      "title" : "Enumeration Cases"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fanappodchatsdk\/fileeventtype"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK": {
+  "abstract" : [
+    {
+      "text" : "With Fanap Chat SDK you could connect to the chat server without managing the socket state and send or receive messages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FanapPodChatSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/FileEventType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FileEventType"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FileEventType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FileEventType",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/fileeventtype"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/FileEventType/DOWNLOADED(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DOWNLOADED"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK11FileRequestC",
+      "text" : "FileRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/DOWNLOADED(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FileEventType.DOWNLOADED(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/fileeventtype\/downloaded(_:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/FileEventType/DOWNLOADING(uniqueId:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DOWNLOADING"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "uniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/DOWNLOADING(uniqueId:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FileEventType.DOWNLOADING(uniqueId:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/fileeventtype\/downloading(uniqueid:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/FileEventType/DOWNLOAD_ERROR(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DOWNLOAD_ERROR"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK0C5ErrorV",
+      "text" : "ChatError"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/DOWNLOAD_ERROR(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FileEventType.DOWNLOAD_ERROR(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/fileeventtype\/download_error(_:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/FileEventType/IMAGE_DOWNLOADED(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "IMAGE_DOWNLOADED"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12ImageRequestC",
+      "text" : "ImageRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/IMAGE_DOWNLOADED(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FileEventType.IMAGE_DOWNLOADED(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/fileeventtype\/image_downloaded(_:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/FileEventType/NOT_STARTED": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NOT_STARTED"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/NOT_STARTED",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FileEventType.NOT_STARTED",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/fileeventtype\/not_started"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/FileEventType/UPLOADED(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UPLOADED"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK17UploadFileRequestC",
+      "text" : "UploadFileRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/UPLOADED(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FileEventType.UPLOADED(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/fileeventtype\/uploaded(_:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/FileEventType/UPLOADING(uniqueId:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UPLOADING"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "uniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/UPLOADING(uniqueId:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FileEventType.UPLOADING(uniqueId:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/fileeventtype\/uploading(uniqueid:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/FileEventType/UPLOAD_ERROR(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UPLOAD_ERROR"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK0C5ErrorV",
+      "text" : "ChatError"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/FileEventType\/UPLOAD_ERROR(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FileEventType.UPLOAD_ERROR(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/fileeventtype\/upload_error(_:)"
+}
+}
+}

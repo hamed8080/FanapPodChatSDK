@@ -1,0 +1,369 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Leg"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15FanapPodChatSDK3LegV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Leg"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FanapPodChatSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Leg"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "Leg"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Leg"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/Se"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Leg\/init(from:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Leg\/distance",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Leg\/duration",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Leg\/steps",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Leg\/summary"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fanappodchatsdk\/leg"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://FanapPodChatSDK/Se": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK": {
+  "abstract" : [
+    {
+      "text" : "With Fanap Chat SDK you could connect to the chat server without managing the socket state and send or receive messages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FanapPodChatSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Leg": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Leg"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Leg",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Leg"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Leg",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/leg"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Leg/distance": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "distance"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK8DistanceV",
+      "text" : "Distance"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Leg\/distance",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "distance",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/leg\/distance"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Leg/duration": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "duration"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK8DurationV",
+      "text" : "Duration"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Leg\/duration",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "duration",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/leg\/duration"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Leg/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Leg\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/leg\/init(from:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Leg/steps": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "steps"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK4StepV",
+      "text" : "Step"
+    },
+    {
+      "kind" : "text",
+      "text" : "]?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Leg\/steps",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "steps",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/leg\/steps"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Leg/summary": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "summary"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Leg\/summary",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "summary",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/leg\/summary"
+}
+}
+}

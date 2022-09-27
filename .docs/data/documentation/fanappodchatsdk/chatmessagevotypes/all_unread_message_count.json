@@ -1,0 +1,163 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatMessageVOTypes"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatMessageVOTypes\/ALL_UNREAD_MESSAGE_COUNT"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15FanapPodChatSDK0C14MessageVOTypesO24ALL_UNREAD_MESSAGE_COUNTyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ALL_UNREAD_MESSAGE_COUNT"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FanapPodChatSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "ChatMessageVOTypes.ALL_UNREAD_MESSAGE_COUNT"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ALL_UNREAD_MESSAGE_COUNT"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fanappodchatsdk\/chatmessagevotypes\/all_unread_message_count"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK": {
+  "abstract" : [
+    {
+      "text" : "With Fanap Chat SDK you could connect to the chat server without managing the socket state and send or receive messages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FanapPodChatSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ChatMessageVOTypes": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChatMessageVOTypes"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatMessageVOTypes",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChatMessageVOTypes"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChatMessageVOTypes",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chatmessagevotypes"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ChatMessageVOTypes/ALL_UNREAD_MESSAGE_COUNT": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ALL_UNREAD_MESSAGE_COUNT"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatMessageVOTypes\/ALL_UNREAD_MESSAGE_COUNT",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ChatMessageVOTypes.ALL_UNREAD_MESSAGE_COUNT",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chatmessagevotypes\/all_unread_message_count"
+}
+}
+}

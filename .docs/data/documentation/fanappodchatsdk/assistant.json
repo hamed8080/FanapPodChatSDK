@@ -1,0 +1,591 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15FanapPodChatSDK9AssistantC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Assistant"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FanapPodChatSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Assistant"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "Assistant"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Assistant"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/Se",
+        "doc:\/\/FanapPodChatSDK\/SE"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/init(assistant:contactType:participant:block:roleTypes:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/init(from:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/assistant",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/block",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/contactType",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/participant",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/roleTypes"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/encode(to:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/Encodable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fanappodchatsdk\/assistant"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://FanapPodChatSDK/SE": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/Se": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK": {
+  "abstract" : [
+    {
+      "text" : "With Fanap Chat SDK you could connect to the chat server without managing the socket state and send or receive messages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FanapPodChatSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Assistant": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Assistant"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Assistant"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Assistant",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/assistant"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Assistant/Encodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/Encodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Encodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/assistant\/encodable-implementations"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Assistant/assistant": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "assistant"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK7InviteeC",
+      "text" : "Invitee"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/assistant",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "assistant",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/assistant\/assistant"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Assistant/block": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "block"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/block",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "block",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/assistant\/block"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Assistant/contactType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contactType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/contactType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contactType",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/assistant\/contacttype"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Assistant/encode(to:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encode"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "to"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7EncoderP",
+      "text" : "Encoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/encode(to:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encode(to:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/assistant\/encode(to:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Assistant/init(assistant:contactType:participant:block:roleTypes:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "assistant"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK7InviteeC",
+      "text" : "Invitee"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "contactType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "participant"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK11ParticipantC",
+      "text" : "Participant"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "block"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "roleTypes"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK5RolesO",
+      "text" : "Roles"
+    },
+    {
+      "kind" : "text",
+      "text" : "]?)"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/init(assistant:contactType:participant:block:roleTypes:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(assistant:contactType:participant:block:roleTypes:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/assistant\/init(assistant:contacttype:participant:block:roletypes:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Assistant/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/assistant\/init(from:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Assistant/participant": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "participant"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK11ParticipantC",
+      "text" : "Participant"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/participant",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "participant",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/assistant\/participant"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Assistant/roleTypes": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "roleTypes"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK5RolesO",
+      "text" : "Roles"
+    },
+    {
+      "kind" : "text",
+      "text" : "]?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Assistant\/roleTypes",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "roleTypes",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/assistant\/roletypes"
+}
+}
+}

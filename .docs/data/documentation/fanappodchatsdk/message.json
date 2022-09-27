@@ -1,0 +1,1874 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15FanapPodChatSDK7MessageC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Message"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FanapPodChatSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Message"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "Message"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Message"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/Se",
+        "doc:\/\/FanapPodChatSDK\/SE",
+        "doc:\/\/FanapPodChatSDK\/SQ",
+        "doc:\/\/FanapPodChatSDK\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "seeAlsoSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Chat",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatDelegate",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CacheFactory",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Conversation"
+      ],
+      "title" : "Important classes"
+    }
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/==(_:_:)"
+      ],
+      "title" : "Operators"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/init(from:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/init(threadId:deletable:delivered:editable:edited:id:mentioned:message:messageType:metadata:ownerId:pinned:previousId:seen:systemMetadata:time:timeNanos:uniqueId:conversation:forwardInfo:participant:replyInfo:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/conversation",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/deletable",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/delivered",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/editable",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/edited",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/forwardInfo",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/id",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/mentioned",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/message",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/messageType",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/metaData-7zh4d",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/metadata-98jct",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/ownerId",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/participant",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/pinned",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/previousId",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/replyInfo",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/seen",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/systemMetadata",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/threadId",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/time",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/timeNanos",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/uniqueId"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/encode(to:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/hash(into:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/Encodable-Implementations",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fanappodchatsdk\/message"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://FanapPodChatSDK/SE": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/SH": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/SQ": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/Se": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK": {
+  "abstract" : [
+    {
+      "text" : "With Fanap Chat SDK you could connect to the chat server without managing the socket state and send or receive messages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FanapPodChatSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CacheFactory": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CacheFactory"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CacheFactory",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CacheFactory"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CacheFactory",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cachefactory"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Chat": {
+  "abstract" : [
+    {
+      "text" : "The chat server manages the async connection and the rest of the job for you, and you could send or receive messages or create a channel or group chat.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Chat"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Chat",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Chat"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Chat",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chat"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ChatDelegate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChatDelegate"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatDelegate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChatDelegate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChatDelegate",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chatdelegate"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Conversation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Conversation"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Conversation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Conversation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Conversation",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/conversation"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Message"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Message"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Message",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/==(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "=="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK7MessageC",
+      "text" : "Message"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK7MessageC",
+      "text" : "Message"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/==(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "==(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/==(_:_:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/Encodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/Encodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Encodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/encodable-implementations"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/equatable-implementations"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/conversation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "conversation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12ConversationC",
+      "text" : "Conversation"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/conversation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "conversation",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/conversation"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/deletable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "deletable"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/deletable",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "deletable",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/deletable"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/delivered": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "delivered"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/delivered",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "delivered",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/delivered"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/editable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "editable"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/editable",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "editable",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/editable"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/edited": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "edited"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/edited",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "edited",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/edited"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/encode(to:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "encode"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "to"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7EncoderP",
+      "text" : "Encoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/encode(to:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "encode(to:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/encode(to:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/forwardInfo": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "forwardInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK11ForwardInfoC",
+      "text" : "ForwardInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/forwardInfo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "forwardInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/forwardinfo"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/hash(into:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hash"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "into"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "inout"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6HasherV",
+      "text" : "Hasher"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/hash(into:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hash(into:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/hash(into:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/id": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/id",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "id",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/id"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/init(from:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/init(threadId:deletable:delivered:editable:edited:id:mentioned:message:messageType:metadata:ownerId:pinned:previousId:seen:systemMetadata:time:timeNanos:uniqueId:conversation:forwardInfo:participant:replyInfo:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "threadId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "deletable"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "delivered"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "editable"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "edited"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "mentioned"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "message"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "messageType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "metadata"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "ownerId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "pinned"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "previousId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "seen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "systemMetadata"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "time"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Su",
+      "text" : "UInt"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "timeNanos"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Su",
+      "text" : "UInt"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "uniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "conversation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12ConversationC",
+      "text" : "Conversation"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "forwardInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK11ForwardInfoC",
+      "text" : "ForwardInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "participant"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK11ParticipantC",
+      "text" : "Participant"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "replyInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK9ReplyInfoC",
+      "text" : "ReplyInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/init(threadId:deletable:delivered:editable:edited:id:mentioned:message:messageType:metadata:ownerId:pinned:previousId:seen:systemMetadata:time:timeNanos:uniqueId:conversation:forwardInfo:participant:replyInfo:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(threadId:deletable:delivered:editable:edited:id:mentioned:message:messageType:metadata:ownerId:pinned:previousId:seen:systemMetadata:time:timeNanos:uniqueId:conversation:forwardInfo:participant:replyInfo:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/init(threadid:deletable:delivered:editable:edited:id:mentioned:message:messagetype:metadata:ownerid:pinned:previousid:seen:systemmetadata:time:timenanos:uniqueid:conversation:forwardinfo:participant:replyinfo:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/mentioned": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mentioned"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/mentioned",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mentioned",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/mentioned"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/message": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "message"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/message",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "message",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/message"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/messageType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "messageType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/messageType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "messageType",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/messagetype"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/metaData-7zh4d": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "metaData"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12FileMetaDataC",
+      "text" : "FileMetaData"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/metaData-7zh4d",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "metaData",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/metadata-7zh4d"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/metadata-98jct": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "metadata"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/metadata-98jct",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "metadata",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/metadata-98jct"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/ownerId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ownerId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/ownerId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ownerId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/ownerid"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/participant": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "participant"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK11ParticipantC",
+      "text" : "Participant"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/participant",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "participant",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/participant"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/pinned": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pinned"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/pinned",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "pinned",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/pinned"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/previousId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "previousId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/previousId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "previousId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/previousid"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/replyInfo": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "replyInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK9ReplyInfoC",
+      "text" : "ReplyInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/replyInfo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "replyInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/replyinfo"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/seen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "seen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/seen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "seen",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/seen"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/systemMetadata": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "systemMetadata"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/systemMetadata",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "systemMetadata",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/systemmetadata"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/threadId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "threadId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/threadId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "threadId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/threadid"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/time": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "time"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Su",
+      "text" : "UInt"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/time",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "time",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/time"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/timeNanos": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "timeNanos"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Su",
+      "text" : "UInt"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/timeNanos",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "timeNanos",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/timenanos"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Message/uniqueId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Message\/uniqueId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "uniqueId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/message\/uniqueid"
+}
+}
+}

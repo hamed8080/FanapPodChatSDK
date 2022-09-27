@@ -1,0 +1,335 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMLinkedUser"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMLinkedUser\/insertOrUpdate(linkedUser:resultEntity:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "FanapPodChatSDK",
+    "externalID" : "s:15FanapPodChatSDK12CMLinkedUserC14insertOrUpdate06linkedF012resultEntityyAA06LinkedF0C_yACcSgtFZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "insertOrUpdate"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "linkedUser"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:15FanapPodChatSDK10LinkedUserC",
+        "text" : "LinkedUser"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "resultEntity"
+      },
+      {
+        "kind" : "text",
+        "text" : ": (("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)CMLinkedUser",
+        "text" : "CMLinkedUser"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> ())?)"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FanapPodChatSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Method",
+    "symbolKind" : "method",
+    "title" : "insertOrUpdate(linkedUser:resultEntity:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "insertOrUpdate"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "linkedUser"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LinkedUser",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:15FanapPodChatSDK10LinkedUserC",
+              "text" : "LinkedUser"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "resultEntity"
+            },
+            {
+              "kind" : "text",
+              "text" : ": (("
+            },
+            {
+              "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMLinkedUser",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)CMLinkedUser",
+              "text" : "CMLinkedUser"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> ())? = nil)"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fanappodchatsdk\/cmlinkeduser\/insertorupdate(linkeduser:resultentity:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK": {
+  "abstract" : [
+    {
+      "text" : "With Fanap Chat SDK you could connect to the chat server without managing the socket state and send or receive messages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FanapPodChatSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMLinkedUser": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CMLinkedUser"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMLinkedUser",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CMLinkedUser"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CMLinkedUser",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmlinkeduser"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMLinkedUser/insertOrUpdate(linkedUser:resultEntity:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "insertOrUpdate"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "linkedUser"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK10LinkedUserC",
+      "text" : "LinkedUser"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "resultEntity"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)CMLinkedUser",
+      "text" : "CMLinkedUser"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ())?)"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMLinkedUser\/insertOrUpdate(linkedUser:resultEntity:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "insertOrUpdate(linkedUser:resultEntity:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmlinkeduser\/insertorupdate(linkeduser:resultentity:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/LinkedUser": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LinkedUser"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LinkedUser",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LinkedUser"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LinkedUser",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/linkeduser"
+}
+}
+}

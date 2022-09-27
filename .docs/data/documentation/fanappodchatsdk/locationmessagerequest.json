@@ -1,0 +1,871 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15FanapPodChatSDK22LocationMessageRequestC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "LocationMessageRequest"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FanapPodChatSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "LocationMessageRequest"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "LocationMessageRequest"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "LocationMessageRequest"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/BaseRequest"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/SE"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/init(mapCenter:threadId:userGroupHash:mapHeight:mapType:mapWidth:mapZoom:mapImageName:repliedTo:systemMetadata:textMessage:uniqueId:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/mapCenter",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/mapHeight",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/mapImageName",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/mapType",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/mapWidth",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/mapZoom",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/messageType",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/repliedTo",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/systemMetadata",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/textMessage",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/threadId",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/userGroupHash"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fanappodchatsdk\/locationmessagerequest"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://FanapPodChatSDK/SE": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK": {
+  "abstract" : [
+    {
+      "text" : "With Fanap Chat SDK you could connect to the chat server without managing the socket state and send or receive messages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FanapPodChatSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/BaseRequest": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BaseRequest"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/BaseRequest",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BaseRequest"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BaseRequest",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/baserequest"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/LocationMessageRequest": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LocationMessageRequest"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LocationMessageRequest"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LocationMessageRequest",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/locationmessagerequest"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/LocationMessageRequest/init(mapCenter:threadId:userGroupHash:mapHeight:mapType:mapWidth:mapZoom:mapImageName:repliedTo:systemMetadata:textMessage:uniqueId:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "mapCenter"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK9CordinateV",
+      "text" : "Cordinate"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "threadId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "userGroupHash"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "mapHeight"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "mapType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "mapWidth"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "mapZoom"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "mapImageName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "repliedTo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "systemMetadata"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "textMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "uniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/init(mapCenter:threadId:userGroupHash:mapHeight:mapType:mapWidth:mapZoom:mapImageName:repliedTo:systemMetadata:textMessage:uniqueId:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(mapCenter:threadId:userGroupHash:mapHeight:mapType:mapWidth:mapZoom:mapImageName:repliedTo:systemMetadata:textMessage:uniqueId:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/locationmessagerequest\/init(mapcenter:threadid:usergrouphash:mapheight:maptype:mapwidth:mapzoom:mapimagename:repliedto:systemmetadata:textmessage:uniqueid:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/LocationMessageRequest/mapCenter": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mapCenter"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK9CordinateV",
+      "text" : "Cordinate"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/mapCenter",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mapCenter",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/locationmessagerequest\/mapcenter"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/LocationMessageRequest/mapHeight": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mapHeight"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/mapHeight",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mapHeight",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/locationmessagerequest\/mapheight"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/LocationMessageRequest/mapImageName": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mapImageName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/mapImageName",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mapImageName",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/locationmessagerequest\/mapimagename"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/LocationMessageRequest/mapType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mapType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/mapType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mapType",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/locationmessagerequest\/maptype"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/LocationMessageRequest/mapWidth": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mapWidth"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/mapWidth",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mapWidth",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/locationmessagerequest\/mapwidth"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/LocationMessageRequest/mapZoom": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mapZoom"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/mapZoom",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mapZoom",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/locationmessagerequest\/mapzoom"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/LocationMessageRequest/messageType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "messageType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK11MessageTypeO",
+      "text" : "MessageType"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/messageType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "messageType",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/locationmessagerequest\/messagetype"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/LocationMessageRequest/repliedTo": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "repliedTo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/repliedTo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "repliedTo",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/locationmessagerequest\/repliedto"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/LocationMessageRequest/systemMetadata": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "systemMetadata"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/systemMetadata",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "systemMetadata",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/locationmessagerequest\/systemmetadata"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/LocationMessageRequest/textMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "textMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/textMessage",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "textMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/locationmessagerequest\/textmessage"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/LocationMessageRequest/threadId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "threadId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/threadId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "threadId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/locationmessagerequest\/threadid"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/LocationMessageRequest/userGroupHash": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "userGroupHash"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/LocationMessageRequest\/userGroupHash",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "userGroupHash",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/locationmessagerequest\/usergrouphash"
+}
+}
+}

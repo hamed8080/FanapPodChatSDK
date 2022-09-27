@@ -1,0 +1,373 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15FanapPodChatSDK9ImageSizeO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ImageSize"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FanapPodChatSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ImageSize"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "ImageSize"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ImageSize"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/SE",
+        "doc:\/\/FanapPodChatSDK\/SQ",
+        "doc:\/\/FanapPodChatSDK\/SH",
+        "doc:\/\/FanapPodChatSDK\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/ACTUAL",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/LARG",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/MEDIUM",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/SMALL"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/Encodable-Implementations",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/Equatable-Implementations",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fanappodchatsdk\/imagesize"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://FanapPodChatSDK/SE": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/SH": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/SQ": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/SY": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK": {
+  "abstract" : [
+    {
+      "text" : "With Fanap Chat SDK you could connect to the chat server without managing the socket state and send or receive messages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FanapPodChatSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ImageSize": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ImageSize"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ImageSize"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ImageSize",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/imagesize"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ImageSize/ACTUAL": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ACTUAL"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/ACTUAL",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ImageSize.ACTUAL",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/imagesize\/actual"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ImageSize/Encodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/Encodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Encodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/imagesize\/encodable-implementations"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ImageSize/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/imagesize\/equatable-implementations"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ImageSize/LARG": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LARG"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/LARG",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ImageSize.LARG",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/imagesize\/larg"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ImageSize/MEDIUM": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "MEDIUM"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/MEDIUM",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ImageSize.MEDIUM",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/imagesize\/medium"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ImageSize/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/imagesize\/rawrepresentable-implementations"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ImageSize/SMALL": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SMALL"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/SMALL",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ImageSize.SMALL",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/imagesize\/small"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ImageSize/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ImageSize\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/imagesize\/init(rawvalue:)"
+}
+}
+}

@@ -1,0 +1,675 @@
+{
+  "abstract" : [
+    {
+      "text" : "Getting the all threads.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Chat"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Chat\/getAllThreads(request:completion:cacheResponse:uniqueIdResult:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15FanapPodChatSDK0C0C13getAllThreads7request10completion13cacheResponse14uniqueIdResultyAA0fG0C_ySayAA12ConversationCGSg_SSSgAA0C5ErrorVSgtcyAN_AoRtcSgySScSgtF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "getAllThreads"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "request"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:15FanapPodChatSDK10AllThreadsC",
+        "text" : "AllThreads"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "completion"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:15FanapPodChatSDK14CompletionTypea",
+        "text" : "CompletionType"
+      },
+      {
+        "kind" : "text",
+        "text" : "<["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:15FanapPodChatSDK12ConversationC",
+        "text" : "Conversation"
+      },
+      {
+        "kind" : "text",
+        "text" : "]>, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "cacheResponse"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:15FanapPodChatSDK17CacheResponseTypea",
+        "text" : "CacheResponseType"
+      },
+      {
+        "kind" : "text",
+        "text" : "<["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:15FanapPodChatSDK12ConversationC",
+        "text" : "Conversation"
+      },
+      {
+        "kind" : "text",
+        "text" : "]>?, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "uniqueIdResult"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:15FanapPodChatSDK18UniqueIdResultTypea",
+        "text" : "UniqueIdResultType"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FanapPodChatSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "getAllThreads(request:completion:cacheResponse:uniqueIdResult:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "getAllThreads"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "request"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/AllThreads",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:15FanapPodChatSDK10AllThreadsC",
+              "text" : "AllThreads"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "completion"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@escaping"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CompletionType",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:15FanapPodChatSDK14CompletionTypea",
+              "text" : "CompletionType"
+            },
+            {
+              "kind" : "text",
+              "text" : "<["
+            },
+            {
+              "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Conversation",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:15FanapPodChatSDK12ConversationC",
+              "text" : "Conversation"
+            },
+            {
+              "kind" : "text",
+              "text" : "]>, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "cacheResponse"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CacheResponseType",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:15FanapPodChatSDK17CacheResponseTypea",
+              "text" : "CacheResponseType"
+            },
+            {
+              "kind" : "text",
+              "text" : "<["
+            },
+            {
+              "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Conversation",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:15FanapPodChatSDK12ConversationC",
+              "text" : "Conversation"
+            },
+            {
+              "kind" : "text",
+              "text" : "]>? = nil, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "uniqueIdResult"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/UniqueIdResultType",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:15FanapPodChatSDK18UniqueIdResultTypea",
+              "text" : "UniqueIdResultType"
+            },
+            {
+              "kind" : "text",
+              "text" : " = nil)"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "<#request description#>",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "request"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "<#completion description#>",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "completion"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "<#cacheResponse description#>",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "cacheResponse"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "<#uniqueIdResult description#>",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "uniqueIdResult"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fanappodchatsdk\/chat\/getallthreads(request:completion:cacheresponse:uniqueidresult:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK": {
+  "abstract" : [
+    {
+      "text" : "With Fanap Chat SDK you could connect to the chat server without managing the socket state and send or receive messages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FanapPodChatSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/AllThreads": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AllThreads"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/AllThreads",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AllThreads"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AllThreads",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/allthreads"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CacheResponseType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CacheResponseType"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CacheResponseType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CacheResponseType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CacheResponseType",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cacheresponsetype"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Chat": {
+  "abstract" : [
+    {
+      "text" : "The chat server manages the async connection and the rest of the job for you, and you could send or receive messages or create a channel or group chat.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Chat"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Chat",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Chat"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Chat",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chat"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Chat/getAllThreads(request:completion:cacheResponse:uniqueIdResult:)": {
+  "abstract" : [
+    {
+      "text" : "Getting the all threads.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getAllThreads"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "request"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK10AllThreadsC",
+      "text" : "AllThreads"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "completion"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK14CompletionTypea",
+      "text" : "CompletionType"
+    },
+    {
+      "kind" : "text",
+      "text" : "<["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12ConversationC",
+      "text" : "Conversation"
+    },
+    {
+      "kind" : "text",
+      "text" : "]>, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "cacheResponse"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK17CacheResponseTypea",
+      "text" : "CacheResponseType"
+    },
+    {
+      "kind" : "text",
+      "text" : "<["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12ConversationC",
+      "text" : "Conversation"
+    },
+    {
+      "kind" : "text",
+      "text" : "]>?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "uniqueIdResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK18UniqueIdResultTypea",
+      "text" : "UniqueIdResultType"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Chat\/getAllThreads(request:completion:cacheResponse:uniqueIdResult:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getAllThreads(request:completion:cacheResponse:uniqueIdResult:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chat\/getallthreads(request:completion:cacheresponse:uniqueidresult:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CompletionType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CompletionType"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CompletionType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CompletionType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CompletionType",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/completiontype"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/Conversation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Conversation"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/Conversation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Conversation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Conversation",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/conversation"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/UniqueIdResultType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UniqueIdResultType"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/UniqueIdResultType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UniqueIdResultType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UniqueIdResultType",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/uniqueidresulttype"
+}
+}
+}

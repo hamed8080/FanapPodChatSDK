@@ -1,0 +1,407 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15FanapPodChatSDK0C10ErrorCodesO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ChatErrorCodes"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FanapPodChatSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ChatErrorCodes"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "ChatErrorCodes"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ChatErrorCodes"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/SQ",
+        "doc:\/\/FanapPodChatSDK\/SH",
+        "doc:\/\/FanapPodChatSDK\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/ASYNC_ERROR",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/ERROR_RAEDY_CHAT",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/EXPORT_ERROR",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/NETWORK_ERROR",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/OUT_OF_STORAGE",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/UNDEFINED"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/Equatable-Implementations",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fanappodchatsdk\/chaterrorcodes"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://FanapPodChatSDK/SH": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/SQ": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/SY": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK": {
+  "abstract" : [
+    {
+      "text" : "With Fanap Chat SDK you could connect to the chat server without managing the socket state and send or receive messages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FanapPodChatSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ChatErrorCodes": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChatErrorCodes"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChatErrorCodes"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChatErrorCodes",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chaterrorcodes"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ChatErrorCodes/ASYNC_ERROR": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ASYNC_ERROR"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/ASYNC_ERROR",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ChatErrorCodes.ASYNC_ERROR",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chaterrorcodes\/async_error"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ChatErrorCodes/ERROR_RAEDY_CHAT": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ERROR_RAEDY_CHAT"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/ERROR_RAEDY_CHAT",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ChatErrorCodes.ERROR_RAEDY_CHAT",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chaterrorcodes\/error_raedy_chat"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ChatErrorCodes/EXPORT_ERROR": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "EXPORT_ERROR"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/EXPORT_ERROR",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ChatErrorCodes.EXPORT_ERROR",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chaterrorcodes\/export_error"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ChatErrorCodes/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chaterrorcodes\/equatable-implementations"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ChatErrorCodes/NETWORK_ERROR": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NETWORK_ERROR"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/NETWORK_ERROR",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ChatErrorCodes.NETWORK_ERROR",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chaterrorcodes\/network_error"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ChatErrorCodes/OUT_OF_STORAGE": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OUT_OF_STORAGE"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/OUT_OF_STORAGE",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ChatErrorCodes.OUT_OF_STORAGE",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chaterrorcodes\/out_of_storage"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ChatErrorCodes/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chaterrorcodes\/rawrepresentable-implementations"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ChatErrorCodes/UNDEFINED": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UNDEFINED"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/UNDEFINED",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ChatErrorCodes.UNDEFINED",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chaterrorcodes\/undefined"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/ChatErrorCodes/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/ChatErrorCodes\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/chaterrorcodes\/init(rawvalue:)"
+}
+}
+}

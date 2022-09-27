@@ -1,0 +1,1512 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@FanapPodChatSDK@objc(cs)CMMessage",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "CMMessage"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "FanapPodChatSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "CMMessage"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "CMMessage"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "CMMessage"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/objc(cs)NSManagedObject"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/7Combine16ObservableObjectP",
+        "doc:\/\/FanapPodChatSDK\/objc(pl)NSFetchRequestResult",
+        "doc:\/\/FanapPodChatSDK\/objc(pl)NSObject",
+        "doc:\/\/FanapPodChatSDK\/s7CVarArgP",
+        "doc:\/\/FanapPodChatSDK\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/FanapPodChatSDK\/s23CustomStringConvertibleP",
+        "doc:\/\/FanapPodChatSDK\/SQ",
+        "doc:\/\/FanapPodChatSDK\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/conversation",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/deletable",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/delivered",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/dummyConversationLastMessageVO",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/editable",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/edited",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/forwardInfo",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/id",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/mentioned",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/message",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/messageType",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/metadata",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/ownerId",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/participant",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/pinned",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/previousId",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/replyInfo",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/seen",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/systemMetadata",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/threadId",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/time",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/uniqueId"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/getCodable()"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/crud"
+      ],
+      "title" : "Type Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/convertMesageToCM(message:entity:conversation:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/fetchRequestWithGetHistoryRequest(req:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/insertOrUpdate(message:conversation:resultEntity:)",
+        "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/insertOrUpdate(message:resultEntity:)"
+      ],
+      "title" : "Type Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/fanappodchatsdk\/cmmessage"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://FanapPodChatSDK/7Combine16ObservableObjectP": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/7Combine16ObservableObjectP",
+  "title" : "Combine.ObservableObject",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/SH": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/SQ": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK": {
+  "abstract" : [
+    {
+      "text" : "With Fanap Chat SDK you could connect to the chat server without managing the socket state and send or receive messages.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "FanapPodChatSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CMMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CMMessage"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CMMessage",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/conversation": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "conversation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)CMConversation",
+      "text" : "CMConversation"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/conversation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "conversation",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/conversation"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/convertMesageToCM(message:entity:conversation:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "convertMesageToCM"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "message"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK7MessageC",
+      "text" : "Message"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "entity"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)CMMessage",
+      "text" : "CMMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "conversation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)CMConversation",
+      "text" : "CMConversation"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)CMMessage",
+      "text" : "CMMessage"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/convertMesageToCM(message:entity:conversation:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "convertMesageToCM(message:entity:conversation:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/convertmesagetocm(message:entity:conversation:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/crud": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "crud"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK12CoreDataCrudC",
+      "text" : "CoreDataCrud"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)CMMessage",
+      "text" : "CMMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/crud",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "crud",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/crud"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/deletable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "deletable"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSNumber",
+      "text" : "NSNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/deletable",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "deletable",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/deletable"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/delivered": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "delivered"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSNumber",
+      "text" : "NSNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/delivered",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "delivered",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/delivered"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/dummyConversationLastMessageVO": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dummyConversationLastMessageVO"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)CMConversation",
+      "text" : "CMConversation"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/dummyConversationLastMessageVO",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dummyConversationLastMessageVO",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/dummyconversationlastmessagevo"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/editable": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "editable"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSNumber",
+      "text" : "NSNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/editable",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "editable",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/editable"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/edited": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "edited"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSNumber",
+      "text" : "NSNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/edited",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "edited",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/edited"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/fetchRequestWithGetHistoryRequest(req:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchRequestWithGetHistoryRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "req"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK17GetHistoryRequestC",
+      "text" : "GetHistoryRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSFetchRequest",
+      "text" : "NSFetchRequest"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(pl)NSFetchRequestResult",
+      "text" : "NSFetchRequestResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/fetchRequestWithGetHistoryRequest(req:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchRequestWithGetHistoryRequest(req:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/fetchrequestwithgethistoryrequest(req:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/forwardInfo": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "forwardInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)CMForwardInfo",
+      "text" : "CMForwardInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/forwardInfo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "forwardInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/forwardinfo"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/getCodable()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getCodable"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK7MessageC",
+      "text" : "Message"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/getCodable()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getCodable()",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/getcodable()"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/id": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSNumber",
+      "text" : "NSNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/id",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "id",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/id"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/insertOrUpdate(message:conversation:resultEntity:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "insertOrUpdate"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "message"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK7MessageC",
+      "text" : "Message"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "conversation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)CMConversation",
+      "text" : "CMConversation"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "resultEntity"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)CMMessage",
+      "text" : "CMMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ())?)"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/insertOrUpdate(message:conversation:resultEntity:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "insertOrUpdate(message:conversation:resultEntity:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/insertorupdate(message:conversation:resultentity:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/insertOrUpdate(message:resultEntity:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "insertOrUpdate"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "message"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15FanapPodChatSDK7MessageC",
+      "text" : "Message"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "resultEntity"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)CMMessage",
+      "text" : "CMMessage"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ())?)"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/insertOrUpdate(message:resultEntity:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "insertOrUpdate(message:resultEntity:)",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/insertorupdate(message:resultentity:)"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/mentioned": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mentioned"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSNumber",
+      "text" : "NSNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/mentioned",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mentioned",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/mentioned"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/message": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "message"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/message",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "message",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/message"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/messageType": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "messageType"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSNumber",
+      "text" : "NSNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/messageType",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "messageType",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/messagetype"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/metadata": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "metadata"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/metadata",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "metadata",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/metadata"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/ownerId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ownerId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSNumber",
+      "text" : "NSNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/ownerId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ownerId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/ownerid"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/participant": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "participant"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)CMParticipant",
+      "text" : "CMParticipant"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/participant",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "participant",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/participant"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/pinned": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pinned"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSNumber",
+      "text" : "NSNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/pinned",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "pinned",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/pinned"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/previousId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "previousId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSNumber",
+      "text" : "NSNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/previousId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "previousId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/previousid"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/replyInfo": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "replyInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@FanapPodChatSDK@objc(cs)CMReplyInfo",
+      "text" : "CMReplyInfo"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/replyInfo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "replyInfo",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/replyinfo"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/seen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "seen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSNumber",
+      "text" : "NSNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/seen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "seen",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/seen"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/systemMetadata": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "systemMetadata"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/systemMetadata",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "systemMetadata",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/systemmetadata"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/threadId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "threadId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSNumber",
+      "text" : "NSNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/threadId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "threadId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/threadid"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/time": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "time"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSNumber",
+      "text" : "NSNumber"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/time",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "time",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/time"
+},
+"doc://FanapPodChatSDK/documentation/FanapPodChatSDK/CMMessage/uniqueId": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uniqueId"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/FanapPodChatSDK\/documentation\/FanapPodChatSDK\/CMMessage\/uniqueId",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "uniqueId",
+  "type" : "topic",
+  "url" : "\/documentation\/fanappodchatsdk\/cmmessage\/uniqueid"
+},
+"doc://FanapPodChatSDK/objc(cs)NSManagedObject": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/objc(cs)NSManagedObject",
+  "title" : "CoreData.NSManagedObject",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/objc(pl)NSFetchRequestResult": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/objc(pl)NSFetchRequestResult",
+  "title" : "CoreData.NSFetchRequestResult",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/objc(pl)NSObject": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/objc(pl)NSObject",
+  "title" : "ObjectiveC.NSObjectProtocol",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://FanapPodChatSDK/s7CVarArgP": {
+  "identifier" : "doc:\/\/FanapPodChatSDK\/s7CVarArgP",
+  "title" : "Swift.CVarArg",
+  "type" : "unresolvable"
+}
+}
+}
